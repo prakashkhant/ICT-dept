@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #002147;
+  }
+  .navbar a,
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+   
+  }
+  .navbar a:hover,
+  .navbar-nav .nav-item.active .nav-link {
+    text-decoration: underline;
+    color: #ffc107 !important;
+    text-decoration: none;
+  }
+  
+  /* Headers */
+  header h1,
+  h1,
+  h3 {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(11, 48, 90);
+  }
+  header h1 {
+    font-size: 2.5rem;
+    padding: 14px;
+  }
+  
+  /* Notification Box */
+  .notification-box {
+    background-color: #fffbea;
+    font-size: 1rem;
+    border-left: 5px solid orange;
+  }
+  .notification-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Carousel */
+  .carousel img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity here */
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: relative;
+    z-index: 2; /* Make sure caption is above overlay */
+}
+
+  /* Video */
+  video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  /* Section Cards */
+  .list-group-item {
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Gallery Images */
+  .shadow {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15) !important;
+  }
+  img.rounded {
+    border-radius: 10px !important;
+  }
+  
+  /* Table Styling */
+  .table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .thead-dark {
+    background-color: #002147 !important;
+  }
+  .thead-dark th {
+    border: none;
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  /* Iframe in Column */
+  .col-md-6 iframe {
+    min-height: 350px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #002147;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  

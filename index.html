@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department of ICT – VNSGU</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+    .custom-caption {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        text-align: left;
+    }
+    .custom-caption h2 {
+        font-weight: bold;
+        font-size: 3rem;
+        color: white;
+        
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    .custom-caption p {
+        color: rgb(255, 238, 0);
+        font-size: 1.2rem;
+    }
+    .custom-caption p a {
+        color: rgb(255, 238, 0);
+        text-decoration: none;
+    }
+    </style>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="images/vnsgu_logo.png" alt="VNSGU Logo" width="50" class="mr-2">
+    <span>Department of ICT</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+      <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty</a></li>
+      <li class="nav-item"><a class="nav-link" href="student.html">Student Corner</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<!-- Carousel -->
+<div id="deptCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+    <img src="images/campus.jpg" class="d-block w-100" alt="Department Event">
+    <div class="overlay"></div>  <!-- Black overlay -->
+    <div class="carousel-caption d-none d-md-block custom-caption">
+        <h2>J.P.Dawar Institute of <br> information science and technology</h2>
+        <p><a href="index.html">Department of ICT</a> - Home </p>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
+
+<!-- ===== Department Info Section ===== -->
+<section class="dept-info py-5" style="background-color: #f9f9f9;">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left: Intro Text -->
+        <div class="col-md-7">
+          <h2 class="fw-bold" style="color: rgb(0, 33, 71);">Welcome to the Department of ICT – VNSGU</h2>
+          <p class="lead mt-3">
+            The Department of Information & Communication Technology at Veer Narmad South Gujarat University 
+            is committed to excellence in teaching, research, and innovation. 
+            Our programs are designed to equip students with the skills needed to thrive 
+            in the ever-evolving world of technology.
+          </p>
+  
+          <!-- Highlights -->
+          <div class="row mt-4">
+            <div class="col-6 mb-3">
+              <span class="fw-bold">🎓 UG & PG Programs</span>
+            </div>
+            <div class="col-6 mb-3">
+              <span class="fw-bold">🏆 Industry Collaborations</span>
+            </div>
+            <div class="col-6 mb-3">
+              <span class="fw-bold">📚 Modern Labs</span>
+            </div>
+            <div class="col-6 mb-3">
+              <span class="fw-bold">💼 90% Placement Record</span>
+            </div>
+          </div>
+  
+          <!-- Button -->
+          <a href="about.html" class="btn btn-primary mt-3" style="background-color: rgb(0, 33, 71); border: none;">
+            Know More
+          </a>
+        </div>
+  
+        <!-- Right: Image -->
+        <div class="col-md-5 text-center">
+          <img src="images/dept.jpg" alt="ICT Department" class="img-fluid rounded shadow">
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Notifications -->
+<div class="container my-5">
+  <h3>Notifications</h3>
+  <div class="notification-box shadow p-3 rounded">
+    <marquee direction="up" scrollamount="3" height="200px" onmouseover="this.stop();" onmouseout="this.start();">
+      <ul class="mb-0">
+        <li><a href="">ICT students won a national-level hackathon competition.</a></li>
+        <li><a href="">Admissions open for M.Sc. (ICT) – Apply before Aug 20.</a></li>
+        <li><a href="">Workshop on Cybersecurity scheduled for Sep 5.</a></li>
+        <li><a href="">Faculty research paper published in IEEE Journal.</a></li>
+        <li><a href="">Annual Sports Meet to be held on Oct 10.</a></li>
+        <li><a href=""></a>Guest lecture on AI Trends by Mr. Raj Patel.</a></li>
+        <li><a href="">Placements for 2025 batch starting from November.</a></li>
+      </ul>
+    </marquee>
+  </div>
+</div>
+
+<!-- Intro Video -->
+<div class="container my-5">
+  <h3>Introduction Video</h3>
+  <video width="100%" height="200" controls>
+    <source src="images/intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Your email">
+          </div>
+          <div class="mb-3">
+            <label>Message</label>
+            <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+          </div>
+          <button class="btn btn-primary">Send</button>
+        </form>
+      </div>
+  
+      <!-- Google Map -->
+      <div class="col-md-6">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.763727538143!2d72.784970!3d21.1585814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04df1844beac7%3A0x2e957a52fe09c94d!2sVNSGU%20IT!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      
+
+      </div>
+    </div>
+  </div>
+  
+
+  <footer class="text-center">
+    <p>&copy; 2025 Department of ICT – VNSGU | Designed by Students</p>
+    <p><a href="https://vnsgu.ac.in">Visit VNSGU Official Website</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  </body>
+  </html>
